@@ -11,14 +11,13 @@ def jogo():
   if pessoa == maquina:
     print("empate")
   elif pessoa == 'pedra' and maquina == 'tesoura':
-    print('voce venceu')
+    print('Você venceu')
   elif pessoa == 'tesoura' and maquina == 'papel':
-    print('voce venceu')
+    print('Você venceu')
   elif pessoa == 'papel' and maquina == 'pedra':
-    print('voce venceu')
+    print('Você venceu')
   else:
-    print('voce perdeu')
-  continuar = input('Deseja continuar? S/N').lower()
+    print('Você perdeu')
 while True:
   jogo()
   continuar = input('Deseja continuar? S/ N').lower()
